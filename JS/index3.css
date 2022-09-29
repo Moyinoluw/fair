@@ -1,0 +1,33 @@
+.flex {
+  display: flex;
+}
+.flex_justify_between {
+  justify-content: space-between;
+}
+.flex_align_items {
+  align-items: center;
+}
+nav {
+  background-color: rgba(39, 39, 172, 0.459);
+  padding: 1rem;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+nav ul li {
+  margin: 0 10px;
+}
+#contact {
+  background-color: rgb(116, 164, 219);
+  width: 100%;
+  min-height: 20rem;
+  margin-top: 4rem;
+}
+button {
+  background: #000;
+  color: #fff;
+}
+h1 {
+  text-transform: uppercase;
+}

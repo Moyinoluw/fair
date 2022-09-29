@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index3.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="flex flex_justify_between">
+        <div>Ayomide</div>
+        <div>
+          <ul>
+            <li>Home</li>
+            <li>History</li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <selection>
+      <h1 id="firstName" class="header">This is Me!</h1>
+      <div class="age">Hello</div>
+      <button onclick="toggleHander(2, 5) ">Click</button>
+      <br>
+      <div id="contact">
+<selection>
+      <h1 style="text-transform: uppercase"> Calculator </h1>
+      <form onsubmit="return false">
+        <label for="">Enter first number:</label>
+        <input type="text" id="firstNumber"><br /><br>
+        <label for=""> Enter second Number:</label>
+        <input type="text" id="secondNumber"><br /><br>
+        <button onclick="calculatorHandler('add')"> Add </button>
+        <button onclick="calculatorHandler('subtract')">Subtract</button>
+        <button onclick="calculatorHandler('multiply')"> Multiply </button>
+        <button onclick="calculatorHandler('divide')">Divide </button>
+        <button onclick="calculatorHandler('reminder')">Reminder </button>
+      </form>
+      <small id="smallText"></small>
+      <h1 id="result"> </h1>
+    </selection>
+    <selection> 
+    <h1 style="text-transform: uppercase">Market List</h1>
+    <ul id="myUl"></ul>
+    <input type="text" id="marketItem" />
+    <button onclick="addMarketHandler()"> Add </button>
+    <button onclick="removeMarketHandler()"> Remove </button>
+    <button onclick="shiftMarketHandler()"> Shift </button>
+    <button onclick="unshiftMarketHandler()"> Unshift </button>
+    </selection>
+      </div>
+    </selection>
+    <section class>
+      <div id="resp">
+
+      </div>
+    <button onclick="resp ()"> Call Api </button>
+    </section>
+
+    <footer></footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
